@@ -5,8 +5,8 @@ import TodoItem from "./TodoItem";
 const TodoList = (props) => {
     return (
         <ul className={style.todoList}>
-            {props.todos.map(todo => {
-                return <TodoItem todo={todo} />
+            {props.todos.map((todo, index) => {
+                return <TodoItem todo={todo} key={todo.id} index={index}/>
             })}
         </ul>
     );

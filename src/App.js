@@ -5,9 +5,9 @@ import TodoList from "./Todo/TodoList";
 function App() {
     const todos = [
         { id: 1, completed: false, title: "Купить хлеб" },
-        { id: 1, completed: false, title: "Купить сидр" },
-        { id: 1, completed: false, title: "Купить чипсы" },
-        { id: 1, completed: false, title: "Купить суши"}
+        { id: 2, completed: false, title: "Купить сидр" },
+        { id: 3, completed: false, title: "Купить чипсы" },
+        { id: 4, completed: false, title: "Купить суши"}
     ];
   return (
     <div className="wrapper">
