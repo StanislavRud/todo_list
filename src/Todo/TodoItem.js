@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types'
 import style from './TodoItem.module.css'
 
 const TodoItem = ({todo, index}) => {
@@ -8,5 +9,9 @@ const TodoItem = ({todo, index}) => {
         </li>
     );
 };
+
+TodoItem.propTypes = {
+    todos: PropTypes.object.isRequired
+}
 
 export default TodoItem;
