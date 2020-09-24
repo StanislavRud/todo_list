@@ -1,4 +1,18 @@
-.item__number {
-    display: inline-block;
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+input {
     margin-right: 1rem;
+}
+.rm {
+    background: red;
+    border-radius: 50%;
+    color: #fff;
+    border: none;
 }
